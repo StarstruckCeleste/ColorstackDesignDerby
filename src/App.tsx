@@ -263,7 +263,7 @@ function PageIntro({
   )
 }
 
-function RunCard({ run, index }: { run: typeof runs[number] index: number }) {
+function RunCard({ run, index }: { run: typeof runs[number]; index: number }) {
   return (
     <article className="run-card">
       <div className="run-number">0{index + 1}</div>
